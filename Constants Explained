@@ -1,0 +1,18 @@
+#Constants explained
+
+#Constansts look a but like variales
+
+#but constants are declared in full caps
+
+#for example
+
+THREEPOINTERSHOT = 3
+FREETHROWS = 1
+
+#when programmers see a constant
+
+#it tells them not to change the value
+
+#to display the value in the constant, the code is
+
+print(THREEPOINTERSHOT)
