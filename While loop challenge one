@@ -1,0 +1,9 @@
+#While loop Challemnge 1
+
+num = 0
+while num <= 50:
+    num1 = int(input("Enter a number"))
+    num = num +num1
+    print("Your number is", num)
+
+        
