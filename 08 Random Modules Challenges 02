@@ -1,0 +1,4 @@
+import random
+colors = random.colour[Blue, Navy, SkyBlue, OceanBlue, Royal Blue]
+selected = random.choice(colors)
+print(selected)
