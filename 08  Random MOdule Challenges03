@@ -1,0 +1,12 @@
+import random
+lis = ["h", "t"]
+coin = random.choice(lis)
+guess = input("Guess heads or tails using h or t!")
+if guess == coin:
+    print("You Win")
+else:
+    print("Bad luck")
+    if coin == "h":
+        print("It was heads")
+    else:
+        print("It was tails")
