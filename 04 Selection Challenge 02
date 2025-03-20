@@ -1,0 +1,9 @@
+#Selection Challenge 2
+
+
+num_under_20 = int(input("Enter an number between 10 and 20"))
+
+if num_under_20 > 20:
+    print("Number too high")
+else:
+    print("GOOD BOYYYYYY!!!!")
