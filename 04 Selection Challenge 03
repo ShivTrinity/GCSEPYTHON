@@ -1,0 +1,10 @@
+# Selection Challenge3
+
+num1020 = int(input("Enter a number betwwen 10 and 20"))
+
+if: num1020 > 10 and num1020 < 20:
+    print("Good boy!")
+elif: num1020 < 10:
+    print("Number to small")
+else: num1020 > 20:
+    print("Number too big")
