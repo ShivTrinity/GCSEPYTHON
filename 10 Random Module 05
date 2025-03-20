@@ -1,0 +1,13 @@
+
+import random
+
+num = random.randint(1, 10)
+correct = False
+
+while correct == False:
+    guess = int(input("Guess the number (1-10): "))
+    if guess == num:
+        print("You got it!")
+        correct = True
+    else:
+        print("Try again!")
