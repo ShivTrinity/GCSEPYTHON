@@ -1,0 +1,13 @@
+food = []
+for i in range(4):
+    item = input(f"Enter food item {i+1}: ")
+    food.append(item)
+print("Your food list:")
+print(food)
+to_delete = input("\nWhich food would you like to delete? ")
+if to_delete in food:
+    food.remove(to_delete)
+    print("\nUpdated food list:")
+    print(food)
+else:
+    print("That food was not found in the list")
