@@ -1,0 +1,8 @@
+nums = []
+for i in range(3):
+    number = float(input(f"Enter number {i + 1}: "))
+    nums.append(number)
+save_last = input("Do you want to save the last number? (yes/no): ").lower()
+if save_last != 'yes':
+    nums.pop()
+print("Final list of numbers:", nums)
